@@ -1,5 +1,5 @@
 # 2022-Tkinter
-Python's de-facto standard GUI (Graphical User Interface) package
+day21-Tkinter
 ![starbucks](https://user-images.githubusercontent.com/82772374/150534510-0a183663-8d83-4ef0-b3e1-99f39591edf1.png)
 ![sampleImage1](https://user-images.githubusercontent.com/82772374/150537038-edb0358d-2d75-4763-8415-89fc549b58af.png)
 ![sampleImage2](https://user-images.githubusercontent.com/82772374/150537044-95d15e16-dc83-493c-908a-b78733140dad.png)
