@@ -1,6 +1,6 @@
 import tkinter
 from tkinter import messagebox
-# 기모찌
+
 price = 0
 
 """----------------label, button 함수----------------"""
