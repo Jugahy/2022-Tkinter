@@ -132,7 +132,7 @@ def money():
 
     SecondWindow.destroy()
     ThirdWindow = tkinter.Tk()
-    ThirdWindow.title("2022-Tkinter")
+    ThirdWindow.title("01-Tkinter")
     ThirdWindow.geometry("400x580+100+100")
 
     text1 = tkinter.Text(ThirdWindow, height=3, width=40)
@@ -232,7 +232,7 @@ def Order():
 
 """----------------처음 화면 설정----------------------"""
 FirstWindow = tkinter.Tk()
-FirstWindow.title("2022-Tkinter")
+FirstWindow.title("01-Tkinter")
 FirstWindow.geometry("400x580+100+100")
 
 # 이미지 추가
