@@ -1,6 +1,6 @@
 import tkinter
 from tkinter import messagebox
-
+# 기모찌
 price = 0
 
 """----------------label, button 함수----------------"""
@@ -169,54 +169,54 @@ def Order():
 
     """----------------이미지 버튼----------------"""
     # 0행
-    photo1 = tkinter.PhotoImage(file="sampleImage2.png")
+    photo1 = tkinter.PhotoImage(file="ImageFile/sampleImage2.png")
     btn = tkinter.Button(frame, image=photo1, width=130, height=130, command=IceAmericano)
     btn.grid(row=0, column=0)
 
-    photo2 = tkinter.PhotoImage(file="sampleImage1.png")
+    photo2 = tkinter.PhotoImage(file="ImageFile/sampleImage1.png")
     btn = tkinter.Button(frame, image=photo2, width=130, height=130, command=DolceLatte)
     btn.grid(row=0, column=1)
 
-    photo3 = tkinter.PhotoImage(file="sampleImage3.png")
+    photo3 = tkinter.PhotoImage(file="ImageFile/sampleImage3.png")
     btn = tkinter.Button(frame, image=photo3, width=130, height=130, command=Espresso)
     btn.grid(row=0, column=2)
 
     # 1행
-    photo4 = tkinter.PhotoImage(file="sampleImage4.png")
+    photo4 = tkinter.PhotoImage(file="ImageFile/sampleImage4.png")
     btn = tkinter.Button(frame, image=photo4, width=130, height=130, command=JavaChipFrappuccino)
     btn.grid(row=1, column=0)
 
-    photo5 = tkinter.PhotoImage(file="sampleImage5.png")
+    photo5 = tkinter.PhotoImage(file="ImageFile/sampleImage5.png")
     btn = tkinter.Button(frame, image=photo5, width=130, height=130, command=CaramelMacchiato)
     btn.grid(row=1, column=1)
 
-    photo6 = tkinter.PhotoImage(file="sampleImage6.png")
+    photo6 = tkinter.PhotoImage(file="ImageFile/sampleImage6.png")
     btn = tkinter.Button(frame, image=photo6, width=130, height=130, command=IceCafeLatte)
     btn.grid(row=1, column=2)
 
     # 2행
-    photo7 = tkinter.PhotoImage(file="sampleImage7.png")
+    photo7 = tkinter.PhotoImage(file="ImageFile/sampleImage7.png")
     btn = tkinter.Button(frame, image=photo7, width=130, height=130, command=CafeMocha)
     btn.grid(row=2, column=0)
 
-    photo8 = tkinter.PhotoImage(file="sampleImage8.png")
+    photo8 = tkinter.PhotoImage(file="ImageFile/sampleImage8.png")
     btn = tkinter.Button(frame, image=photo8, width=130, height=130, command=Cappuccino)
     btn.grid(row=2, column=1)
 
-    photo9 = tkinter.PhotoImage(file="sampleImage9.png")
+    photo9 = tkinter.PhotoImage(file="ImageFile/sampleImage9.png")
     btn = tkinter.Button(frame, image=photo9, width=130, height=130, command=ColdBrew)
     btn.grid(row=2, column=2)
 
     # 3행
-    photo10 = tkinter.PhotoImage(file="sampleImage10.png")
+    photo10 = tkinter.PhotoImage(file="ImageFile/sampleImage10.png")
     btn = tkinter.Button(frame, image=photo10, width=130, height=130, command=StrawberryYogurt)
     btn.grid(row=3, column=0)
 
-    photo11 = tkinter.PhotoImage(file="sampleImage11.png")
+    photo11 = tkinter.PhotoImage(file="ImageFile/sampleImage11.png")
     btn = tkinter.Button(frame, image=photo11, width=130, height=130, command=PeachLemonBlended)
     btn.grid(row=3, column=1)
 
-    photo12 = tkinter.PhotoImage(file="sampleImage12.png")
+    photo12 = tkinter.PhotoImage(file="ImageFile/sampleImage12.png")
     btn = tkinter.Button(frame, image=photo12, width=130, height=130, command=WhiteTigerFrappuccino)
     btn.grid(row=3, column=2)
 
@@ -236,7 +236,7 @@ FirstWindow.title("01-Tkinter")
 FirstWindow.geometry("400x580+100+100")
 
 # 이미지 추가
-wall = tkinter.PhotoImage(file="starbucks.png")
+wall = tkinter.PhotoImage(file="ImageFile/starbucks.png")
 wall_label = tkinter.Label(FirstWindow, image=wall)
 wall_label.place(x=0, y=0)
 
