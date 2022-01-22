@@ -70,4 +70,13 @@ df.info()
 
 
 
+import pandas as pd
+
+df = pd.read_csv("titanic_no.csv",header=None, skiprows=3) # 열 이름이 없을 때, 행 3개 출력 x
+
+# df.columns{"pclass","survived","name","sex","age","sibsp","parch","ticket","fare","cabin","embarked","boat","body","home.dest"}
+print(df)
+
+
+
 
